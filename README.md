@@ -33,4 +33,4 @@ Also refer to [Material UI's Grid API](https://material-ui.com/api/grid/#grid-ap
 
 ## License
 
-To be written.
+Read `License.md` file.
