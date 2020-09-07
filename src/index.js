@@ -35,7 +35,7 @@ function _templateObject() {
 
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
-var Column = (0, _styledComponents["default"])(function (_ref) {
+var MUIColumn = (0, _styledComponents["default"])(function (_ref) {
   var children = _ref.children,
       props = _objectWithoutProperties(_ref, ["children"]);
 
@@ -44,6 +44,14 @@ var Column = (0, _styledComponents["default"])(function (_ref) {
     item: true
   }, props), children);
 })(_templateObject());
+
+function Column(_ref2) {
+  var children = _ref2.children,
+      props = _objectWithoutProperties(_ref2, ["children"]);
+
+  return /*#__PURE__*/_react["default"].createElement(MUIColumn, props, children);
+}
+
 var _default = Column;
 exports["default"] = _default;
 "use strict";
@@ -83,7 +91,7 @@ function _templateObject() {
 
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
-var Container = (0, _styledComponents["default"])(function (_ref) {
+var MUIContainer = (0, _styledComponents["default"])(function (_ref) {
   var children = _ref.children,
       props = _objectWithoutProperties(_ref, ["children"]);
 
@@ -92,6 +100,14 @@ var Container = (0, _styledComponents["default"])(function (_ref) {
     direction: "column"
   }, props), children);
 })(_templateObject());
+
+function Container(_ref2) {
+  var children = _ref2.children,
+      props = _objectWithoutProperties(_ref2, ["children"]);
+
+  return /*#__PURE__*/_react["default"].createElement(MUIContainer, props, children);
+}
+
 var _default = Container;
 exports["default"] = _default;
 "use strict";
