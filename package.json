@@ -1,6 +1,6 @@
 {
   "name": "simple-mui-grid",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Simplifies Material UI Grid system",
   "main": "src/index.js",
   "repository": {
