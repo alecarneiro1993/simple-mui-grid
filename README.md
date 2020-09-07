@@ -30,11 +30,11 @@ function MyComponent(props) {
         <Column xs={6}>Column 6</Column>
       </Row>
       <Row justify="center">
-        <Column xs={9}>Column 9</Column>
+        <Column xs={3}>Column 3</Column>
         <Column xs={3}>Column 3</Column>
       </Row>
       <Row justify="flex-end">
-        <Column xs={12}>Column 12</Column>
+        <Column xs={4}>Column 4</Column>
       </Row>
     </Container>
   );
