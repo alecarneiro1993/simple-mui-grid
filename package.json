@@ -7,6 +7,13 @@
     "type": "git",
     "url": "git+https://github.com/alecarneiro1993/simple-mui-grid.git"
   },
+  "keywords": [
+    "grid",
+    "layout",
+    "material-ui",
+    "react",
+    "react-component"
+  ],
   "scripts": {
     "build": "./node_modules/.bin/babel src --out-file index.js"
   },
