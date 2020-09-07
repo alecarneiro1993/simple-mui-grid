@@ -2,10 +2,10 @@ import React from "react";
 import Grid from "@material-ui/core/Grid";
 
 function Row({ children, ...props }) {
-  return (
-    <Grid container item direction="row" {...props}>
-      {children}
-    </Grid>
+  return React.createElement(
+    Grid,
+    { container: true, item: true, direction: "row", ...props },
+    children
   );
 }
 
